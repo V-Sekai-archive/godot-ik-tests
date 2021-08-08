@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://d2q7b3rj850f6"]
 
-[ext_resource type="PackedScene" path="res://ik_test/cases/robot_arm/Godot_CCDIK_Arm.glb" id="1"]
+[ext_resource type="PackedScene" uid="uid://boqqfaxglbjxg" path="res://ik_test/cases/robot_arm/Godot_CCDIK_Arm.glb" id="1"]
 
 [sub_resource type="SkeletonModification3DEWBIK" id="1"]
 root_bone = "Root"
@@ -24,7 +24,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0177011, 0, 0)
 modification_stack = SubResource( "2" )
 
 [node name="Target" type="Position3D" parent="Robotic_Arm_Armature/Skeleton3D" index="1"]
-transform = Transform3D(1, 0, 0, 0, 0.911073, -0.412246, 0, 0.412246, 0.911073, 0.671464, 2.75692, -2.46521)
+transform = Transform3D(1, 0, 0, 0, 0.911073, -0.412246, 0, 0.412246, 0.911073, 3.03121, 3.42294, -2.46521)
 script = null
 
 [node name="Root" type="Node3D" parent="Robotic_Arm_Armature" index="1"]

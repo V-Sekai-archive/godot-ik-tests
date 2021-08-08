@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://dswfv0i6tqdsp"]
 
-[ext_resource type="PackedScene" path="res://ik_test/cases/arm/Godot_Simple_Test_Rig.glb" id="1"]
+[ext_resource type="PackedScene" uid="uid://bpqfa8do1ccj1" path="res://ik_test/cases/arm/Godot_Simple_Test_Rig.glb" id="1"]
 
 [sub_resource type="SkeletonModification3DEWBIK" id="1"]
 root_bone = "Bone_01"
@@ -30,7 +30,7 @@ script = null
 modification_stack = SubResource( "2" )
 
 [node name="Target" type="Position3D" parent="Godot_Simple_Test_Rig/Simple_Test_Rig_Armature/Skeleton3D" index="1"]
-transform = Transform3D(0.962833, 0, -0.270096, 0, 1, 0, 0.270096, 0, 0.962833, 1, 30.2278, 3)
+transform = Transform3D(0.962833, 0, -0.270096, 0, 1, 0, 0.270096, 0, 0.962833, 1, 30.2278, 2.31546)
 script = null
 
 [editable path="Godot_Simple_Test_Rig"]
