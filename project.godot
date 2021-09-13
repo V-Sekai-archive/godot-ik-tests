@@ -27,7 +27,6 @@ window/size/height=900
 window/size/resizable=false
 window/dpi/allow_hidpi=true
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
 window/vsync/vsync_via_compositor=true
 
 [editor]
