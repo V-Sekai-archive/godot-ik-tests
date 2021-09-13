@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[{
+"base": "Node3D",
+"class": &"VRMTopLevel",
+"language": &"GDScript",
+"path": "res://addons/vrm/vrm_toplevel.gd"
+}]
+_global_script_class_icons={
+"VRMTopLevel": ""
+}
+
 [application]
 
 config/name="IK Test"
@@ -35,7 +45,11 @@ import/use_multiple_threads=false
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/Godot-MToon-Shader/plugin.cfg", "res://addons/vrm/plugin.cfg")
+
+[filesystem]
+
+import/fbx/use_fbx=false
 
 [importer_defaults]
 
